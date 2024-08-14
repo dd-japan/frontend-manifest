@@ -50,7 +50,7 @@ spec:
                 - all
             privileged: false
             # readOnlyRootFilesystem: true
-          image: public.ecr.aws/b1o7r7e0/frontend:b06617352cc41ffae962923a7948ec639feed222
+          image: public.ecr.aws/b1o7r7e0/frontend:27f7d3001ae2709b086ef1a5629c206a8034c202
           ports:
           - containerPort: 8080
           readinessProbe:
